@@ -2,17 +2,17 @@
 using namespace std;
 
 void foo(){
-	cout << "It's foo!!" << endl;
+	  cout << "It's foo!!" << endl;
 } 
 
-void bar(){
-	
+void bar() {
+    cout << "It’s bar!!" << endl;
 }
+ 
+int main() {
+    cout << "Hello, World!" << endl;
 
-int main(){
-	cout << "Hello, World!" << endl;
-	return 0;
+    bar();
+    foo();
+    return 0;
 }
-
-foo();
-return 0;
